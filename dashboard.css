@@ -1,0 +1,60 @@
+styles.css
+body{
+    background-color: white;
+    align-items: center;
+    margin :0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.menu{
+    background-color: rgb(8, 166, 8);
+    height: 700px;
+    width: 250px;
+    padding: 20px;
+    color: white;
+
+}
+
+
+button{
+    background-color:#FFFFFF80;
+    
+    color: white;  
+    border-radius: 4px;
+    padding: 12px;
+    border: 44px white;
+    box-shadow: 0px 2px 3px;
+    font-size: 14px; 
+    text-align: left;    
+    
+}
+.Welcome{
+    
+    color: green;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info{
+    width:80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px 60px;
+    justify-content: center;
+       
+}
+.info_box{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 4px 8px grey;
+    border: 1px solid white ;
+    text-align: center;
+    border-radius: 12px;
+    margin: 10px
+}
